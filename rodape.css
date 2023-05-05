@@ -1,0 +1,24 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #1F35B5;
+    color: white;
+    
+}
+
+
+.rodape__lista-titulo {
+    text-align: center;
+}
+
+.lista__destaques {
+   margin-top: 2em;
+    
+}
+
+.lista__destaques-item {
+    list-style: none;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 15px;
+}

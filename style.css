@@ -1,0 +1,89 @@
+@import url(rodape.css);
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.pub_01 {
+    background-image: linear-gradient(to bottom right, rgb(18, 2, 189), rgb(93, 99, 220), rgb(198, 198, 198));
+    height:43%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.pub_01-texto {
+    margin: 1.5em 0 0 0;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao__profissional {
+    background-color: rgb(26, 224, 185);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+}
+
+.pub_02 {
+    background: #ECEEF7;
+    height: 6em;
+    width: 100%;
+    
+}
+
+.pub_02-titulo{
+    padding: 1em 0 0 0;
+    font-size: 12px;
+    text-align: center;
+    color: #1F35B5;
+}
+.pub__imagem {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+.pub__imagem-planos {
+    width: 90px;
+    height: auto;
+}
+
+.pub_beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.beneficios__textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+.beneficios__titulo-principal {
+    color: #1F35B5;
+    text-align: center;
+}
+.beneficios__subtitulo {
+    color: #1F35B5;
+    font-size: 18px;
+}
+
+.beneficios__descricao {
+    text-align: center;
+}
+
