@@ -3,7 +3,7 @@
     justify-content: center;
     background-color: #1F35B5;
     color: white;
-    
+
 }
 
 
@@ -11,9 +11,15 @@
     text-align: center;
 }
 
-.lista__destaques {
-   margin-top: 2em;
-    
+.rodape__lista-titulo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lista__destaques-corte {
+    text-align: center;
+    margin-left: 2em;
+    margin-bottom: 3em;
 }
 
 .lista__destaques-item {
@@ -21,4 +27,28 @@
     line-height: 2rem;
     text-align: center;
     font-size: 15px;
+}
+
+@media screen and (min-width:990px) {
+    .rodape {
+        display: flex;
+
+    }
+
+    .rodape__lista {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    .lista__destaques {
+        margin: 0 0 0 0;
+    }
+
+    .lista__destaques-corte {
+        margin-top: 2em;
+        align-items: center;
+    }
+
 }

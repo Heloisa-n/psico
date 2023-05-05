@@ -19,79 +19,100 @@
   <title>Projeto</title>
 </head>
 
-<body style="height: 1000px;">
+<body>
   <div class="fixed-top">
     <header>
-      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-        <div class=" container-fluid">
-          <a class="navbar-brand" href="#">Psicologia</a>
+      <div class="mobile">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class=" container-fluid">
+            <a class="navbar-brand" href="#">Psicologia</a>
 
-          <button class=" navbar-toggler " type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <button class=" navbar-toggler " type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-item">
-                <div class="nav__botao">
-                  <button class="botao__conta">Criar conta</button>
-                  <button class="botao__entrar">entrar</button>
-                </div>
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Buscar profissionais
-                </a>
-                <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="#">Psicólogo</a></li>
-                  <li><a class="dropdown-item" href="#">Psiquiatra</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  profissionais e empresas
-                </a>
-                <ul class="dropdown-menu ">
-                  <li><a class="dropdown-item" href="#">Para Psicólogos</a></li>
-                  <li><a class="dropdown-item" href="#">Para médicos</a></li>
-                  <li><a class="dropdown-item" href="#">Clínicas, convênios e seguradoras</a></li>
-                  <li><a class="dropdown-item" href="#">Para empresas</a></li>
-                  <li>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+                <li class="nav-item">
+                  <div class="nav__botao">
+                    <button class="botao__conta">Criar conta</button>
+                    <button class="botao__entrar">entrar</button>
+                  </div>
+                  <a class="nav-link active" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Buscar profissionais
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Psicólogo</a></li>
+                    <li><a class="dropdown-item" href="#">Psiquiatra</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    profissionais e empresas
+                  </a>
+                  <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Para Psicólogos</a></li>
+                    <li><a class="dropdown-item" href="#">Para médicos</a></li>
+                    <li><a class="dropdown-item" href="#">Clínicas, convênios e seguradoras</a></li>
+                    <li><a class="dropdown-item" href="#">Para empresas</a></li>
+                    <li>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </nav>
+      </div>
+      <div class="tablet">
+        <div class="container__tablet">
+          <ul class="tablet__lista">
+            <h3>Psicologia</h3>
+            <li class="tablet__lista-item">Início</li>
+            <li class="tablet__lista-item">Buscar profissional</li>
+            <li class="tablet__lista-item">profissionais e empresas</li>
+          </ul>
 
-      </nav>
+          <div class="tablet__botao">
+            <button class="botao__conta">Criar conta</button>
+            <button class="botao__entrar">Entrar</button>
+          </div>
+
+        </div>
+      </div>
     </header>
   </div>
   <div class="pub_01">
     <div class="pub_01-texto">
       <h1>Psicólogos e psiquiatras online</h1>
       <p>Agende uma consulta e faça sua terapia online sem sair de casa, com segurança garantida!</p>
-      <button class="botao__profissional">Buscar profissional</button>
+      <div class="tablet__botao-profissional">
+        <button class="botao__profissional">Buscar profissional</button>
+      </div>
     </div>
   </div>
   <div class="pub_02">
-    <p class="pub_02-titulo">PLANOS DE SAÚDE E EMPRESAS CONVENIADAS</p>
-    <div class="pub__imagem">
-      <img class=pub__imagem-planos src="logo_careplus.webp">
-      <img class=pub__imagem-planos src="logo_bradesco.webp">
-      <img class=pub__imagem-planos src="logo_omint.webp">
-      <img class=pub__imagem-planos src="logo_sompo.webp">
+    <div class="pub_02-tablet">
+      <p class="pub_02-titulo">PLANOS DE SAÚDE E EMPRESAS CONVENIADAS</p>
+      <div class="pub__imagem">
+        <img class=pub__imagem-planos src="logo_careplus.webp">
+        <img class=pub__imagem-planos src="logo_bradesco.webp">
+        <img class=pub__imagem-planos src="logo_omint.webp">
+        <img class=pub__imagem-planos src="logo_sompo.webp">
+      </div>
     </div>
   </div>
-
+  <h3 class="beneficios__titulo-tablet">Benefícios da terapia online</h3>
   <div class="pub_beneficios">
     <div class="beneficios__textos">
-      <h3 class="beneficios__titulo-principal"><strong>Benefícios</strong> da terapia online</h3>
+      <h3 class="beneficios__titulo-principal"><strong>Benefícios </strong>da terapia online</h3>
       <h4 class="beneficios__subtitulo">Comodidade e acessibilidade</h4>
       <p class="beneficios__descricao">Sem trânsito, sem espera e no conforto da sua casa. Na Telavita, você realiza a
         psicoterapia online e consulta
@@ -110,25 +131,24 @@
   </div>
 
   <footer class="rodape">
-    <div class="lista__destaques">
-      <ul>
-        <h6 class="rodape__lista-titulo">Temas em destaque</h6>
-        <li class="lista__destaques-item">Ansiedade</li>
-        <li class="lista__destaques-item">Autoconhecimento</li>
-        <li class="lista__destaques-item">Borderline</li>
-        <li class="lista__destaques-item">Bullying</li>
-        <li class="lista__destaques-item">Burnout</li>
-        <li class="lista__destaques-item">Ciúmes</li>
-        <li class="lista__destaques-item">Depressão</li>
-        <li class="lista__destaques-item">Estress</li>
-        <li class="lista__destaques-item">Fobia</li>
-        <li class="lista__destaques-item">Luto</li>
-        <li class="lista__destaques-item">Relacionamento</li>
-        <li class="lista__destaques-item">TDAH</li>
-        <li class="lista__destaques-item">TOC</li>
-        <li class="lista__destaques-item">Transtorno bipolar</li>
-      </ul>
-      <div class="lista__destaques">
+    <div class="rodape__lista">
+      <div class="lista__especialidades">
+        <ul>
+          <h6 class="rodape__lista-titulo">especialidades</h6>
+          <li class="lista__destaques-item">Psicologia</li>
+          <li class="lista__destaques-item">Psiquiatria</li>
+        </ul>
+      </div>
+      <div class="lista__profissionais">
+        <ul>
+          <h6 class="rodape__lista-titulo">Profissionais e empresas</h6>
+          <li class="lista__destaques-item">Telavita para psicólogos</li>
+          <li class="lista__destaques-item">Telavita para médicos</li>
+          <li class="lista__destaques-item">Telavita para clínicas, convênios e seguradoras</li>
+          <li class="lista__destaques-item">Telavita para empresas</li>
+        </ul>
+      </div>
+      <div class="lista__saibamais">
         <ul>
           <h6 class="rodape__lista-titulo">Saiba mais</h6>
           <li class="lista__destaques-item">Dúvidas frequentes (paciente)</li>
@@ -138,9 +158,31 @@
           <li class="lista__destaques-item">Carreiras</li>
           <li class="lista__destaques-item">Termos de uso</li>
           <li class="lista__destaques-item">Política de privacidade</li>
+        </ul>
+      </div>
+      <div class="lista__destaques">
+        <ul>
+          <h6 class="rodape__lista-titulo">Temas em destaque</h6>
+          <li class="lista__destaques-item">Ansiedade</li>
+          <li class="lista__destaques-item">Autoconhecimento</li>
+          <li class="lista__destaques-item">Borderline</li>
+          <li class="lista__destaques-item">Bullying</li>
+          <li class="lista__destaques-item">Burnout</li>
+          <li class="lista__destaques-item">Ciúmes</li>
+          <li class="lista__destaques-item">Depressão</li>
+          <li class="lista__destaques-item">Estress</li>
 
         </ul>
       </div>
+      <div class="lista__destaques-corte">
+        <li class="lista__destaques-item">Fobia</li>
+        <li class="lista__destaques-item">Luto</li>
+        <li class="lista__destaques-item">Relacionamento</li>
+        <li class="lista__destaques-item">TDAH</li>
+        <li class="lista__destaques-item">TOC</li>
+        <li class="lista__destaques-item">Transtorno bipolar</li>
+      </div>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

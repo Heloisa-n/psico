@@ -5,9 +5,10 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
+
 .pub_01 {
     background-image: linear-gradient(to bottom right, rgb(18, 2, 189), rgb(93, 99, 220), rgb(198, 198, 198));
-    height:43%;
+    height: 43%;
     font-family: 'Ubuntu Mono', monospace;
     color: white;
     display: flex;
@@ -23,6 +24,7 @@ h1 {
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    margin: 6.5em 0 0 0;
 }
 
 .botao__profissional {
@@ -40,22 +42,24 @@ h1 {
     background: #ECEEF7;
     height: 6em;
     width: 100%;
-    
+
 }
 
-.pub_02-titulo{
+.pub_02-titulo {
     padding: 1em 0 0 0;
     font-size: 12px;
     text-align: center;
     color: #1F35B5;
 }
+
 .pub__imagem {
     display: flex;
     width: 100%;
     justify-content: center;
-    
-    
+
+
 }
+
 .pub__imagem-planos {
     width: 90px;
     height: auto;
@@ -75,10 +79,12 @@ h1 {
     text-align: center;
     width: 60%;
 }
+
 .beneficios__titulo-principal {
     color: #1F35B5;
     text-align: center;
 }
+
 .beneficios__subtitulo {
     color: #1F35B5;
     font-size: 18px;
@@ -88,3 +94,79 @@ h1 {
     text-align: center;
 }
 
+.beneficios__titulo-tablet {
+    display: none;
+}
+
+@media screen and (min-width:990px) {
+
+    .pub_01 {
+        background-image: url(background-1.jpg);
+        background-repeat: no-repeat;
+        margin: 3em 0 0 0;
+        background-size: 100%;
+    }
+
+    .pub_01-texto {
+        width: 53%;
+        display: flex;
+        justify-content: center;
+        margin: 3.5em 0 3em 0;
+    }
+
+    .botao__profissional {
+        width: 60%
+        
+    }
+
+    .pub_02 {
+        height: 9em;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .pub_02-tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pub__imagem {
+        gap: 3rem;
+
+    }
+
+    .pub__imagem-planos {
+        width: 150px;
+    }
+
+    .beneficios__titulo-tablet {
+        display: block;
+        display: flex;
+        justify-content: center;
+        color: #1F35B5;
+        font-size: 40px;
+    
+    }
+
+    .beneficios__titulo-principal {
+        display: none;
+    }
+
+    .pub_beneficios {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:3em;
+        margin-bottom: 2em;
+    
+    }
+    .beneficios__subtitulo{
+        font-size: 21px;
+    }
+    .beneficios__textos {
+        width: 20%;
+        font-size: 15px;
+    }
+}
