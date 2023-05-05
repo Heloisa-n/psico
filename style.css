@@ -31,11 +31,11 @@ h1 {
     background-color: rgb(26, 224, 185);
     border: 1px solid transparent;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     padding: 0.5em 1em;
-    margin-top: 0.5em;
+    margin: 0.5em 0 2em 0;
 }
 
 .pub_02 {
