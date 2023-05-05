@@ -16,6 +16,10 @@
     font-size: 18px;
 }
 
+.lista__especialidades {
+    margin-top: 1em;
+}
+
 .lista__destaques-corte {
     text-align: center;
     margin-left: 2em;
@@ -42,6 +46,7 @@
         margin-top: 3em;
     }
 
+  
     .lista__destaques {
         margin: 0 0 0 0;
     }
